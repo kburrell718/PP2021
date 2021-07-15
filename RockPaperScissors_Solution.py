@@ -23,6 +23,7 @@ while player_score < winning_score and computer_score < winning_score:
     # Announce the responses from the user and the computer
     print(f'Player chose {user_response}. Computer chose {computer_response}\n')
 
+#This is the conditions for the game.
     if user_response == "rock" and computer_response == "paper":
         print(f"{computer_response}, Computer has won this match")
         computer_score += 1
